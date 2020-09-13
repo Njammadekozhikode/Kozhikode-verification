@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&display=swap');
+
+@media (min-width:641px){}
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+main h1{
+    margin: 0;
+}
+header{
+    position: absolute;
+    width: 100%;
+    text-align: right;
+    margin: 2em -1em;
+}
+header a{
+    color: rgba(255, 2555, 255,0.5);
+    text-decoration: none; 
+    margin-right: 2em;
+    font-weight: 700;
+    transition: 0.5s ease-in-out;
+}
+header a:hover{
+    color: white;
+    font-size: 1.1rem;
+}
+main{
+    height: 100vh;
+    
+    background-image: url(arun-geetha-viswanathan-XoKZBHLWrt4-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-left: 7em;
+    text-decoration: none;
+
+}
+main h1{
+     font-weight: 800;
+     color: rgba(255, 2555, 255,1);
+     font-family: 'Oswald', sans-serif;
+     font-size: 4rem;
+     display: block;
+     position: absolute;
+     top: 40%;
+     opacity: .7;
+}
+main button{
+     position: absolute;
+     top: 55%;
+     border: 0;
+     padding: 1.4em 6.5em;
+     font-family: 'Montserrat', sans-serif;
+     font-weight: 700;
+     border-radius: .4em;
+     opacity: .5;
+     margin: 1em 10em;
+     box-shadow: .25em .25em .25em;
+     transition: 0.2s ease-in-out;
+}
+main button:hover{
+    opacity: .8;
+    cursor: pointer;
+    padding: 1.6em 6.7em;
+}
+.noDecoration{
+    text-decoration: none;
+    color: black;
+}
+.tomain{
+    border-radius: 100%;
+    border: 0;
+    background: #000;
+    color: white;
+    padding: 1em 1.2em;
+    opacity: .7;
+    font-weight: bolder;
+    float: right;
+    position: fixed;
+    z-index: 2;
+}
+.offers{
+    text-align: center;
+    padding-top: 4em;
+}
+.offers h1{
+    display: block;
+    font-family: 'Oswald', sans-serif;
+    font-size: 3rem;
+}
+.cards-bg{
+
+}
+.cards{
+    background: rgba(0, 0, 0,0.3);
+    width: 12em;
+    padding: 1em 1em 1em 1em;
+    border-radius: .2em;
+    display: inline-block;
+    margin: 2em 2em 0 2em;
+    box-shadow: 0.2em 0.2em 1.5em;
+    transition: 0.5s ease-in-out;
+}
+#c1,#c2,#c3,#c4{
+    transition: 0.4 ease-in-out;
+}
+.cards img{
+    width: 2em;
+    height: 2em;
+}
+#c1:hover{
+    background-image: url(images/card1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.9;
+    color: white;
+    cursor: pointer;
+}
+#c2:hover{
+    background-image: url(images/card2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.9;
+    color: white;
+    position: 5em 1em;
+    cursor: pointer;
+}
+#c3:hover{
+    background-image: url(images/card3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.9;
+    color: white;
+    position: 5em 1em;
+    cursor: pointer;
+}
+#c4:hover{
+    background-image: url(images/card4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.9;
+    color: white;
+    position: 5em 1em;
+    cursor: pointer;
+}
+footer{
+    background: #000;
+    color: white;
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin-top: 10em;
+    opacity: 0.8;
+}
+footer h5{
+    font-weight: 800;
+    font-size: large;
+}
+footer i{
+    color: rgb(116, 16, 16);
+}
+footer i:hover{
+    color: white;
+}
+@media (max-width:800px){
+    main{
+        padding-left: 0em;
+        text-align: center;
+        align-items: center;
+    }
+    main button{
+        margin: 10em -10em;
+    }
+}
